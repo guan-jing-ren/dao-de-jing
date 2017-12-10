@@ -40,7 +40,9 @@ Development and testing follow each other
 
   - Highly coherent, lowly coupled code go hand in hand with each other. Irreducible complexity is the outcome of blind evolution. All code evolves, so make sure selection pressure is about coherency and coupling.
 
-  - Developing and testing are really the same thing, but not in that TDD way. Code is already being tested when it is used to write other code. If your code induces boilerplate code, it means it is failing the test of code usability. No unit test can fix a broken design. A broken design renders all tests meaningless.
+  - Whether using third party libraries or in-house libraries, an application is composed of libraries.
+
+  - Developing and testing are really the same thing, but not in that TDD way. Code is already being tested when it is used to write other code. If your code induces boilerplate code, it means it is failing the test of code usability. No unit test can fix a broken design. A broken design renders all tests meaningless. Constant cycling between testing and development reveals the true core of the product.
 ```
 Therefore the sages:
 Manage the work of detached actions
@@ -60,9 +62,9 @@ They act but do not presume
 - They work within many methodologies without imposing  
 They write code that can be thrown away  
 They prototype before knowing  
-  -  If there's any recurring theme to any development methodology, it is prototype, prototype, prototype. Continuous Integration? Prototype. Agile? Prototype. Iterative Waterfall? Prototype.
+  - If there's any recurring theme to any development methodology, it is prototype, prototype, prototype. Continuous Integration? Prototype. Agile? Prototype. Iterative Waterfall? Prototype.
 
-  - This is why effective developers remain effective regardless of the fad that management is trying to push. They always try different things out (a form of testing) to make sure they understand the problem.
+  - This is why effective developers remain effective regardless of the fad that management is trying to push. They always try different things out (a form of testing) to make sure they understand the problem. They don't presume to know how to solve the problem and try to fit the problem around it.
 ```
 They succeed but do not dwell on success
 It is because they do not dwell on success
