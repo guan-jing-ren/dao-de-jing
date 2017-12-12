@@ -78,3 +78,4 @@ That it never becomes a hindrance
   - What worked once, or a few times, for other people, doesn't make it an absolute best practice. The easiest way to make something legitimate-sounding is to give a name with a capital letter, and it is mistaken to mean something that will always work. Any fool can give anything a name to make it more important than it is.
 
   - Perfect is the enemy of the good. Trying to reproduce the sucess of a best practice in one area often results in the disintegration of the next.
+  
